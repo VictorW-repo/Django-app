@@ -1,16 +1,11 @@
 """
-WSGI config for iot_parser project.
-
-It exposes the WSGI callable as a module-level variable named ``application``.
-
-For more information on this file, see
-https://docs.djangoproject.com/en/5.2/howto/deployment/wsgi/
+WSGI config for iot_project.
 """
 
 import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "iot_parser.settings")
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'iot_project.settings')
 
 application = get_wsgi_application()
